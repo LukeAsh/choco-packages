@@ -1,6 +1,6 @@
 ﻿$packageName = 'freefilesync'
 $installerType = 'EXE'
-$url = 'http://www.freefilesync.org/download/w2wvxxvauqfik7d/FreeFileSync_8.1_Windows_Setup.exe'
+$url = 'http://www.freefilesync.org/download/FreeFileSync_8.2_Windows_Setup.exe'
 $silentArgs = '/silent'
 $validExitCodes = @(0)
 

@@ -3,7 +3,7 @@
   <metadata>
     <id>freefilesync</id>
     <title>FreeFileSync</title>
-    <version>8.1</version>
+    <version>8.2</version>
     <authors>zenju</authors>
     <owners>LukeAsh</owners>
     <summary>FreeFileSync is a folder comparison and synchronization tool providing highly optimized performance and usability without a needlessly complex user interface.</summary>
@@ -16,17 +16,18 @@
     <licenseUrl>https://opensource.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/LukeAsh/choco-packages/master/icons/freefilesync.png</iconUrl>
-    <releaseNotes>- Follow shell links during drag and drop on main dialog (Windows)
-- Significantly improved main grid rendering performance
-- Log info about non-default global settings
-- Establish new network connections only when needed (Windows)
-- Show only a single login dialog per network share
-- Show login dialogs for the same network address one after another
-- Fixed endless recursion for paths containing certain unicode characters (OS X)
-- Support using portable version without direct installation
-- Fixed access denied error when verifying read-only target file (Windows)
-- New global option for sound cue after comparison
-- Updated help file
+    <releaseNotes>Unified item path representation on main grid
+New progress indicator control for binary comparison
+Fixed crash on exit when accessing already destructed constant
+Fixed crash when FreeFileSync is still running during OS shutdown
+Fixed crash on startup due to missing root certificates
+Work around start up crash on Windows installations missing certain patches
+Fixed in-place progress panel height being trimmed
+Support drawing arbitrary polyons with graph control
+Apply Posix file name normalization (OS X)
+Normalize keyboard input encoding for all text fields (OS X)
+Report errors when cleaning up old log files
+Integrate external app WinMerge if installation is found
 </releaseNotes>
 
   </metadata>
